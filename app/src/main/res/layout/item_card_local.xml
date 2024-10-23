@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="3dp"
+        app:cardMaxElevation="3dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:id="@+id/wrapp_global_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:id="@+id/wrapp_image_card"
+                android:layout_width="@dimen/width_image_cards"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray">
+                <ImageView
+                    android:id="@+id/image_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+            <LinearLayout
+                android:id="@+id/wrapp_content_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_cards"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/titulo_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nome local"/>
+                <LinearLayout
+                    android:id="@+id/wrapp_categorias_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/chip_dog_card"
+                        android:layout_width="@dimen/dimen_chips"
+                        android:layout_height="@dimen/dimen_chips"
+                        android:elevation="2dp"
+                        android:background="@drawable/chip_dog"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="@dimen/margin_chips">
+                        <ImageView
+                            android:id="@+id/iv_chip_icon_dog"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleX="0.65"
+                            android:scaleY="0.65" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/chip_cat_card"
+                        android:layout_width="@dimen/dimen_chips"
+                        android:layout_height="@dimen/dimen_chips"
+                        android:elevation="2dp"
+                        android:background="@drawable/chip_cat"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="@dimen/margin_chips">
+                        <ImageView
+                            android:id="@+id/iv_chip_icon_cat"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleX="0.65"
+                            android:scaleY="0.65" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/chip_bird_card"
+                        android:layout_width="@dimen/dimen_chips"
+                        android:layout_height="@dimen/dimen_chips"
+                        android:elevation="2dp"
+                        android:background="@drawable/chip_bird"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="@dimen/margin_chips">
+                        <ImageView
+                            android:id="@+id/iv_chip_icon_bird"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleX="0.65"
+                            android:scaleY="0.65" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>

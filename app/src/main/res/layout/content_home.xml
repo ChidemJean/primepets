@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/srl_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <ScrollView
+        android:id="@+id/sv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:id="@+id/ll_content_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding_border_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/wrapper_banner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_banner"
+                android:elevation="3dp"
+                android:background="@color/colorDivider"
+                android:layout_margin="0dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/view_pager_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/layout_dots_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dots_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/dots_margin_bottom"
+                    android:gravity="center"
+                    android:orientation="horizontal"/>
+            </RelativeLayout>
+            <!--<android.support.v7.widget.RecyclerView-->
+                <!--android:id="@+id/rv_wrapper_cards"-->
+                <!--android:scrollbars="vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"/>-->
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

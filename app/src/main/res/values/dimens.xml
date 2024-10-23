@@ -1,0 +1,55 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_height_with_margins">162dp</dimen>
+    <dimen name="toolbar_height_with_margins2">72dp</dimen>
+    <dimen name="toolbar_height_dialogs">60dp</dimen>
+    <dimen name="toolbar_default_height">56dp</dimen>
+    <dimen name="status_bar_height">56dp</dimen>
+
+    <dimen name="toolbar_height_options">90dp</dimen>
+    <dimen name="toolbar_padding_top_options">5dp</dimen>
+    <dimen name="toolbar_padding_bottom_options">10dp</dimen>
+    <dimen name="toolbar_padding_lr_options">0dp</dimen>
+    <dimen name="toolbar_height_item_options">50dp</dimen>
+    <dimen name="toolbar_width_item_options">65dp</dimen>
+    <dimen name="toolbar_dimen_image_item_options">50dp</dimen>
+    <dimen name="toolbar_padding_lr_item_options">8dp</dimen>
+    <dimen name="toolbar_padding_tb_item_options">5dp</dimen>
+    <dimen name="dimen_icon_option">50dp</dimen>
+
+    <dimen name="text_size_menor">10dp</dimen>
+    <dimen name="text_size_titles">20dp</dimen>
+
+    <dimen name="width_iv_auto_complete_item">25dp</dimen>
+    <dimen name="padding_auto_complete_item">12dp</dimen>
+    <dimen name="dimen_icons">24dp</dimen>
+    <dimen name="dimen_icons_toolbars">26dp</dimen>
+    <dimen name="margin_icons">5dp</dimen>
+    <dimen name="margin_icons_borders">5dp</dimen>
+    <dimen name="padding_et_busca">36dp</dimen>
+
+    <dimen name="padding_border_content">0dp</dimen>
+    <dimen name="height_banner">150dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">15dp</dimen>
+    <dimen name="padding_subtitles">20dp</dimen>
+    <dimen name="size_subtitles">16dp</dimen>
+
+    <dimen name="height_switch_mode">50dp</dimen>
+    <dimen name="padding_lr_switch_mode">15dp</dimen>
+    <dimen name="padding_tb_switch_mode">10dp</dimen>
+    <dimen name="font_size_switch_mode">14dp</dimen>
+
+    <dimen name="padding_cards">10dp</dimen>
+    <dimen name="width_image_cards">100dp</dimen>
+    <dimen name="dimen_chips">16dp</dimen>
+    <dimen name="margin_chips">5dp</dimen>
+
+</resources>
